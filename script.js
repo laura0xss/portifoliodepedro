@@ -16,3 +16,18 @@ const sobre = document.getElementById("sobre");
 botaoSobre.addEventListener("click", function () {
     sobre.scrollIntoView();
 });
+const habilidades = document.getElementById("habilidades");
+
+botaoSobre.addEventListener("click", function () {
+    habilidades.scrollIntoView();
+});
+const projetos  = document.getElementById("projetos");
+
+botaoSobre.addEventListener("click", function () {
+    projetos.scrollIntoView();
+});
+const contato = document.getElementById("contato");
+
+botaoSobre.addEventListener("click", function () {
+    contato.scrollIntoView();
+});
